@@ -1,0 +1,19 @@
+{
+  "name": "jamesjkim",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "no",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^3.0.3",
+    "font-awesome": "^4.5.0"
+  }
+}
