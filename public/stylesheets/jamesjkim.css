@@ -126,6 +126,10 @@ button:hover{
     padding: 0 25px;
 }
 
+.top-links a{
+    color: black;
+}
+
 #github{
     margin-left: 15px;
 }
