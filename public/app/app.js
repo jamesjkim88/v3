@@ -10,7 +10,7 @@ app.config(function($stateProvider, $urlRouterProvider){
         templateUrl: "../templates/_portfolio.html",
         controller: "portfolioCtrl"
     }).state("contact", {
-        url: "/blog",
+        url: "/resume",
         templateUrl: "../templates/_resume.html",
         controller: "blogCtrl"
     });
