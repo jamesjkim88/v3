@@ -10,9 +10,9 @@ app.config(function($stateProvider, $urlRouterProvider){
         templateUrl: "../templates/_portfolio.html",
         controller: "portfolioCtrl"
     }).state("contact", {
-        url: "/contact",
-        templateUrl: "../templates/_contact.html",
-        controller: "contactCtrl"
+        url: "/blog",
+        templateUrl: "../templates/_resume.html",
+        controller: "blogCtrl"
     });
     $urlRouterProvider.otherwise("/");
 });
@@ -25,7 +25,7 @@ app.controller("portfolioCtrl", function($scope){
     $scope.message = "portfolio";
 });
 
-app.controller("contactCtrl", function($scope){
+app.controller("blogCtrl", function($scope){
     $scope.message = "contact";
 });
 
