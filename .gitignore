@@ -1,6 +1,5 @@
 .idea
 node_modules/
-/public/img
 .DS_Store
 /public/.DS_Store
 Procfile
