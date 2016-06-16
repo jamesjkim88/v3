@@ -58,8 +58,8 @@ SCROLL BAR
 CONTAINER
 ********/
 
-.container{
-    background-color: white;
+.mainContainer{
+    background-color: #FFFFFF;
     box-shadow: 0 0 25px #979797;
     text-align: center;
     position: fixed;
@@ -76,7 +76,7 @@ CONTAINER
 NAME
 ********/
 
-.container .name{
+.mainContainer .name{
     margin: 0;
     transform: rotate(-15deg);
 }
@@ -172,7 +172,7 @@ NAV
     border-bottom: 1px solid black;
 }
 
-.container div{
+.mainContainer div{
     font-size: 1.10em;
 }
 
@@ -224,6 +224,56 @@ MY WORK
 
 embed:focus {
     outline: none;
+}
+
+/********
+RESUME
+********/
+
+.navbar-default{
+  box-shadow: 0 2px 15px gray;
+}
+
+.navbar{
+  height: 60px;
+}
+
+.active{
+  height: 60px;
+}
+
+.navbar-nav>li>a{
+  padding-bottom: 15.5px;
+  line-height: 27px;
+}
+
+.navbar-brand{
+  line-height: 27px;
+}
+
+.posNcity{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.resume-nav-links{
+  font-size: 1.25em;
+}
+
+.border-this{
+  background-color: #FFFFFF;
+}
+
+ul.listSkills{
+  list-style-type: none;
+}
+
+. navbar-fixed-top{
+  margin-bottom: 50px;
+}
+
+.profileContainer{
+  margin-top: 100px;
 }
 
 /********
@@ -365,14 +415,14 @@ and (max-device-width: 736px){
     .imgContainer{
         height: 250px;
     }
-    .container div{
+    .mainContainer div{
         font-size: 1em;
     }
 }
 
 @media only screen and (min-device-width: 320px)
 and (max-device-width: 568px){
-    .container{
+    .mainContainer{
         height: 70%;
     }
 }
@@ -380,7 +430,7 @@ and (max-device-width: 568px){
 @media only screen and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (orientation: landscape){
-    .container{
+    .mainContainer{
         height: 50%;
     }
 }
@@ -388,10 +438,7 @@ and (orientation: landscape){
 @media only screen and (min-device-width: 376px)
 and (max-device-width: 737px)
 and (orientation: landscape){
-    .container{
+    .mainContainer{
         height: 52%;
     }
 }
-
-
-
