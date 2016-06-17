@@ -252,8 +252,9 @@ RESUME
 }
 
 .posNcity{
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #848484;
+  border-bottom: 1px solid #848484;
+  padding: 5px 0;
 }
 
 .resume-nav-links{
@@ -274,6 +275,42 @@ ul.listSkills{
 
 .profileContainer{
   margin-top: 100px;
+}
+
+.noMargin{
+  padding: 0;
+}
+
+.headerTitle{
+  background-color: #f8971c;
+  margin: 0;
+  padding: 15px;
+  color: #F0F0F0;
+}
+
+.profileContainer{
+  margin-bottom: 5%;
+}
+
+.listSkills, .posNcity{
+  color: #3f4041;
+}
+
+.border-this{
+  border: 1px solid #848484;
+}
+
+.right{
+  float: right;
+  clear: both;
+}
+
+.headerTitle {
+  cursor: pointer;
+}
+
+.hide{
+  display: none !important;
 }
 
 /********
