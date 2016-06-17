@@ -222,10 +222,6 @@ MY WORK
     background-color: #f2f2f2;
 }
 
-embed:focus {
-    outline: none;
-}
-
 /********
 RESUME
 ********/
@@ -313,123 +309,6 @@ ul.listSkills{
   display: none !important;
 }
 
-/********
-GRID SYSTEM
-********/
-
-/*.row:after{*/
-    /*visibility: hidden;*/
-    /*clear: both;*/
-    /*height: 0;*/
-    /*content: " ";*/
-    /*display: block;*/
-/*}*/
-
-/*[class*="col-"]{*/
-    /*float: left;*/
-/*}*/
-
-/*.col-1{*/
-    /*width: 8.33%;*/
-/*}*/
-
-/*.col-2{*/
-    /*width: 16.67%;*/
-/*}*/
-
-/*.col-3{*/
-    /*width: 25%;*/
-/*}*/
-
-/*.col-4{*/
-    /*width: 33.33%;*/
-/*}*/
-
-/*.col-5{*/
-    /*width: 41.65%;*/
-/*}*/
-
-/*.col-6{*/
-    /*width: 50%;*/
-/*}*/
-
-/*.col-7{*/
-    /*width: 58.31%;*/
-/*}*/
-
-/*.col-8{*/
-    /*width: 66.64%;*/
-/*}*/
-
-/*.col-9{*/
-    /*width: 74.97%;*/
-/*}*/
-
-/*.col-10{*/
-    /*width: 83.3%;*/
-/*}*/
-
-/*.col-11{*/
-    /*width: 91.63%;*/
-/*}*/
-
-/*.col-12{*/
-    /*width: 100%;*/
-/*}*/
-
-/*!*\Medium Screen \*!*/
-/*@media screen and (min-device-width: 768px)*/
-/*and (max-device-width: 1024px)*/
-/*and (orientation: portrait){*/
-    /*.medium-col-1{*/
-        /*width: 8.33%;*/
-    /*}*/
-
-    /*.medium-col-2{*/
-        /*width: 16.67%;*/
-    /*}*/
-
-    /*.medium-col-3{*/
-        /*width: 25%;*/
-    /*}*/
-
-    /*.medium-col-4{*/
-        /*width: 33.33%;*/
-    /*}*/
-
-    /*.medium-col-5{*/
-        /*width: 41.65%;*/
-    /*}*/
-
-    /*.medium-col-6{*/
-        /*width: 50%;*/
-    /*}*/
-
-    /*.medium-col-7{*/
-        /*width: 58.31%;*/
-    /*}*/
-
-    /*.medium-col-8{*/
-        /*width: 66.64%;*/
-    /*}*/
-
-    /*.medium-col-9{*/
-        /*width: 74.97%;*/
-    /*}*/
-
-    /*.medium-col-10{*/
-        /*width: 83.3%;*/
-    /*}*/
-
-    /*.medium-col-11{*/
-        /*width: 91.63%;*/
-    /*}*/
-
-    /*.medium-col-12{*/
-        /*width: 100%;*/
-    /*}*/
-/*}*/
-
 /*\Small Screen \*/
 @media only screen and (min-device-width: 320px)
 and (max-device-width: 736px){
@@ -437,14 +316,8 @@ and (max-device-width: 736px){
         width: 100%;
     }
     .nav-links{
-        padding: 7px;
+        padding: 6px;
         font-size: 1em;
-    }
-    embed{
-        display: none;
-    }
-    .nav-links:nth-child(3){
-        display: none;
     }
     div.landing-row{
         padding: 0;
