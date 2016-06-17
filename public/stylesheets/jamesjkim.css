@@ -239,7 +239,7 @@ RESUME
 }
 
 .navbar-nav>li>a{
-  padding-bottom: 15.5px;
+  padding-bottom: 16.5px;
   line-height: 27px;
 }
 
@@ -316,7 +316,7 @@ and (max-device-width: 736px){
         width: 100%;
     }
     .nav-links{
-        padding: 6px;
+        padding: 7px;
         font-size: 1em;
     }
     div.landing-row{
