@@ -205,6 +205,15 @@ ABOUT ME
     padding-left: 2em;
 }
 
+.statement{
+  color: #141823;
+}
+
+.helloWorld{
+  color: #141823;
+  font-weight: normal;
+}
+
 /********
 MY WORK
 ********/
@@ -218,7 +227,7 @@ MY WORK
 .titleNcaption{
     margin-bottom: 2%;
     padding: 15px;
-    color: #b9bfc3;
+    color: #141823;
     background-color: #f2f2f2;
 }
 
